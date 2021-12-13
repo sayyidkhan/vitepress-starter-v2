@@ -27,4 +27,11 @@ jobs:
         run: npm install
       
       - name: Create Working Build
-        run: sh deploy.sh
+        run: npm run docs:build
+      
+      - name: Commit UI
+        run: |
+          cd docs/.vitepress/dist
+          git commit -am 'deploy'
+          git push -f git@github.com:sayyidkhan/vitepress-starter-v2.git master:gh-pages
+          
