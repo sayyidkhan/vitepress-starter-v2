@@ -1,0 +1,30 @@
+## this setup will build the markdown files automatically, when code is pushed into github repository.
+
+name: Vitepress Starter CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  #1st CI job
+  build_markdown:
+    name: Build markdown
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: setup Node.JS
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install Dependencies
+        run: npm install
+      
+      - name: Create Working Build
+        run: sh deploy.sh
