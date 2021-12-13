@@ -32,6 +32,8 @@ jobs:
       - name: Commit UI
         run: |
           cd docs/.vitepress/dist
+          git config --global user.name "abc"
+          git config --global user.email 'abc@users.noreply.github.com'
           git commit -am 'deploy'
           git push -f git@github.com:sayyidkhan/vitepress-starter-v2.git master:gh-pages
           
