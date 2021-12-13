@@ -14,8 +14,8 @@ cd docs/.vitepress/dist
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
-git config --global user.name "abc"
-git config --global user.email "abc@example.com"
+git config user.email "abc"
+git config user.name "abc@example.com"
 
 git init
 git add -A
