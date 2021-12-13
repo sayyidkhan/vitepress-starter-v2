@@ -21,6 +21,7 @@ git config --global user.name "abc"
 git config --global user.email 'abc@users.noreply.github.com'
 
 git init
+git branch -m master
 git commit -am 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
