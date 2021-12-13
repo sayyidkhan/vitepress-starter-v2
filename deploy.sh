@@ -17,9 +17,11 @@ cd docs/.vitepress/dist
 git config user.email "abc"
 git config user.name "abc@example.com"
 
+git config --global user.name "abc"
+git config --global user.email 'abc@users.noreply.github.com'
+
 git init
-git add -A
-git commit -m 'deploy'
+git commit -am 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:sayyidkhan/sayyidkhan.github.io.git master
