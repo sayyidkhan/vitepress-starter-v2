@@ -15,4 +15,4 @@ https://www.youtube.com/watch?v=jRBQpjmwH1c&t=274s
 
 ## How to perform deployment
 
-https://vitepress.vuejs.org/guide/deploy.html#github-pages
+https://i.ytimg.com/an_webp/lC2HBzbytBw/mqdefault_6s.webp?du=3000&sqp=CISx4Y0G&rs=AOn4CLCuTaGhGL3giVTtCYGLvB3GeDEopw
