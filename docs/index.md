@@ -2,4 +2,4 @@
 
 [About](/about/index.md)
 
-lorem ipsum
+lorem ipsum 2
