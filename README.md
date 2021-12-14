@@ -6,8 +6,9 @@ Project URL: https://github.com/sayyidkhan/vitepress-starter-v2
 
 ### Repository Builder on Stackblitz
 
-[sayyidkhan Stackblitz ⚡](https://stackblitz.com/edit/node-mdczxx?file=README.md)
-[kikilala Stackblitz ⚡](https://stackblitz.com/edit/node-afisg2?file=package.json)
+- [sayyidkhan Stackblitz ⚡](https://stackblitz.com/edit/node-mdczxx?file=README.md)
+- [kikilala Stackblitz ⚡](https://stackblitz.com/edit/node-afisg2?file=package.json)
+
 ### how to get started
 
 Youtube video how to edit the channel:
