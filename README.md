@@ -6,7 +6,7 @@ Project URL: https://github.com/sayyidkhan/vitepress-starter-v2
 
 ### Repository Builder on Stackblitz
 
-[sayyidkhan](https://stackblitz.com/edit/node-mdczxx?file=README.md)
+[sayyidkhan Stackblitz ⚡](https://stackblitz.com/edit/node-mdczxx?file=README.md)
 
 ### how to get started
 
